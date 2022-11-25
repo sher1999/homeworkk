@@ -1,5 +1,10 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
 
 .kh-container{
     display: flex;
@@ -103,4 +108,157 @@ color: #486958;
     width: 80px;
     left: 860px;
     top: 180px;
+}
+
+.iscontainer{
+}
+.istest p{
+    padding-top: 200px;
+    font-family: 'Poppins';
+    font-weight: 800;
+    font-size: 70px;
+    line-height: 105px;
+    text-align: center;  
+    color: #1C2323; 
+    margin-bottom: 21px;
+}
+.iszalora{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 20px;
+}
+.iscontainer2{
+    display: flex;
+    justify-content: center;
+
+}
+.iscenter{
+   width: 85%; 
+}
+.isbig{
+    display: flex;
+ 
+}
+
+.isleft{
+    width: 40%;
+   
+}
+.isleft img{
+width: 100%;
+
+}
+.isright{
+    width: 60%;
+    background: #CCF0E6;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.iscenter2{
+    width: 80%;
+   
+}
+.isfoiz{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 0px;
+}
+.isnot h3{
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 38px;
+    color: #486958;
+    padding-top: 20px;
+   position: relative;
+   z-index: 1;
+}
+.isnot .isRoscoe{
+  margin-top: 50px;
+  opacity: 0.75;
+}
+.iskovich p{
+ font-weight: 400;
+font-size: 300px;
+line-height: 321px;
+color: #f5ebeb;
+position: absolute;
+bottom: 95px;
+right: 600px;
+}
+
+.isbig2{  
+    display: flex;
+   margin:240px 0px;
+}
+.isleft2 h1{
+font-family: 'Poppins';
+font-weight: 800;
+font-size: 70px;
+line-height: 105px;
+color: #1C2323;
+}
+.isleft2 {
+    width: 33%;
+}
+.isleft2 p{
+font-family: 'Poppins';
+font-weight: 500;
+font-size: 25px;
+line-height: 38px;
+color: #486958;
+margin-bottom: 37px;
+}
+.isright2{
+      width: 67%;
+    border: 1px solid #486958;
+    display: flex;
+    justify-content: center;
+}
+.iscenter33{
+    width: 90%;
+}
+.isright2 p{   
+font-family: 'Poppins';
+font-weight: 500;
+font-size: 25px;
+line-height: 38px;
+color: #486958;
+padding-top: 57px ;
+padding-bottom: 25px;
+}
+.isDescription p{
+ font-family: 'Poppins';
+font-weight: 500;
+font-size: 25px;
+line-height: 38px;
+color: #486958;
+padding-top: 37px;
+
+}
+
+.isbutt{
+display: flex;
+justify-content: flex-end;
+margin-bottom: 35px;
+}
+.isbutt button{
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 38px; 
+    color: #FFFFFF;    
+    border: none;
+    padding: 21px 73px;
+    background: #58A9A5;
+border-radius: 20px 20px 20px 0px;
+cursor: pointer;
+}
+.isbutt button:hover{
+    background: #222e2e;
+
 }
