@@ -4,3 +4,140 @@
     margin: 0;
     padding: 0;
 }
+.Ali-center{
+    width: 85%;
+}
+
+.Ali-main{
+    display: flex;
+    justify-content: center;
+    /* position: relative; */
+    top: 20px;
+
+}
+.ali-nav{
+}
+
+.Ali-navbar{
+    width: 85%;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    backdrop-filter: blur(10);
+}
+.Ali-imtex{
+    display: flex;
+    align-items: center;
+
+}
+.Ali-imtex h1{
+    font-weight: 800;
+font-size: 35px;
+color: #58A9A5;
+}
+.Ali-navbar ul{
+    display: flex;
+    
+}
+.Ali-navbar li{
+    list-style: none;
+    cursor: pointer;
+    
+}
+.Ali-navbar ul li a{
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 25px;
+    margin-right: 45px;
+    color: #404242;
+
+
+    
+}
+.Ali-navbar a:hover{
+    color: #58A9A5;
+    border-bottom: 2px solid  #FEC62D;
+    border-width: 3px;
+    
+
+}
+.Ali-navbar button{
+    border: none;
+    color: white;
+    padding: 8px 44px;
+    background: #58A9A5;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.Ali-navbar button:hover{
+    background-color: darkorchid;
+}
+.Ali-main-2{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 150px;
+    top: 62px;
+}
+.Ali-tex-img{
+    display: flex;
+}
+.Ali-tex h1{
+    width: 90%;
+    font-weight: 800;
+    font-size: 62px;
+    line-height: 85px;
+    color: #1C2323;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.Ali-tex p{
+    width: 86%;
+    font-weight: 400;
+    font-size: 25px;
+    color: #404242;
+    margin-bottom: 30px;
+}
+.Ali-tex button{
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 38px;
+    padding: 12px 45px;
+    border: none;
+    background: #58A9A5;
+    border-radius: 20px 20px 20px 0px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+.Ali-tex button:hover{
+    background-color: blueviolet;
+}
+.Ali-tex-img{
+    display: flex;
+    
+}
+.Ali-tex{
+    width: 50%;
+    margin-top: 70px;
+}
+
+.Ali-img img{
+    position: absolute;
+    top: 130px;
+    right: 80px;
+        width: 45%;
+}
+.Ali-img:hover{
+    opacity: 0.8;
+
+}
+.A-img2A{
+    position: absolute;
+    top:0;
+    z-index: -1;
+}
+.A-img2 img{
+    position: absolute;
+    top: 20px;
+}
