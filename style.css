@@ -14,9 +14,8 @@
    
 }
 .NHproject{
-      margin-top: 120px;
-      text-align: center;
-      margin-left: 570px;
+     display: flex;
+     justify-content: center;
 }
 .NHproject h1{
     font-weight: 800;
@@ -36,35 +35,32 @@
 }
 .NHmidl{
     display: flex;
+    justify-content: space-between;
 }
 
 .NHliving h1{
-    margin-top: 100px;
-    width: 386px;
+    
     font-weight: 700;
     font-size: 40px;
     color: #58A9A5;
-    margin-left: 166px;
+    /* margin-left: 166px; */
 }
 .NHliving p{
+
     margin-top: 5px;
-    margin-left: 166px;
-    width: 460px;
     font-size: 20px;
     font-weight: 500;
     line-height: 30px;
 
 }
 .NHliving img{
-    width: 450px;
-    margin-top: 35px;
-    margin-left: 166px;
+    width: 100%;
 
 }
 .NHmidlphot{
     width: 450px;
     margin-top: 94px;
-    margin-left: 166px;
+    /* margin-left: 166px; */
 
 }
 .NHmidlphot h1{
@@ -80,8 +76,9 @@
     font-size: 20px;
     font-weight: 500;
     line-height: 30px;
+}.Nh_imggg{
+    padding-bottom:  50px;
 }
-
 .Ali-center{
     width: 85%;
 }
@@ -224,6 +221,7 @@ color: #58A9A5;
 .kh-container{
     display: flex;
     justify-content: center;
+padding-top: 100px;
 }
 .kh-center{
     width: 85%;
@@ -480,4 +478,12 @@ cursor: pointer;
 
 }
 
+.NH_center{
+    display: flex;
+    justify-content: center;
 
+}
+
+.NHliving{
+    width: 31%;
+}
